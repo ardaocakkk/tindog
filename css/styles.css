@@ -1,0 +1,163 @@
+body{
+    font-family: 'Montserrat';
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+h1 {  
+    font-family: 'Montserrat';  
+    font-size: 4rem;  
+    line-height: 1.5;  
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+
+h3 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+#title{
+    height: auto;
+}
+
+.container{
+    padding: 2% 10% 7%;
+}
+
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+.nav-item{
+    padding: 0 15px;
+    font-size: 1.25rem;
+}
+
+.download-button{
+    margin: 4px;
+}
+
+
+.title-image{
+    width: 60%;
+    transform: rotate(15deg);
+}
+
+
+@media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#features{
+    padding: 7% 15%;
+}
+
+.feature-box{
+    text-align: center;
+}
+
+.icon{
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color:#ef8172;
+    color: #fff;
+}
+
+
+#testimonials h2{
+    padding-bottom: 20px;
+}
+
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.press-image{
+    width: 20%;
+    padding: 10px;
+}
+
+
+
+#mastiff{
+    height: 288px;
+}
+
+#mastiff-button{
+    margin-top: -15px;
+}
+
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+}
+
+.h3-cta{
+    font-family: 'Montserrat';  
+    font-size: 4rem;  
+    line-height: 1.5;  
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 1.5rem;
+}
+
+
+#footer{
+    text-align: center;
+    margin: 60px
+}
+
+
+.footer-items{
+    padding: 0 10px 15px 10px;
+}
+
